@@ -5,13 +5,15 @@ export default function Units() {
   return (
     <div className="Units">
       <span className="units">
-        <a href="#" id="celsius-link" className="active">
-          °C
-        </a>{" "}
+
+      <button id="celsius-link" className="active">
+      °C
+    </button>{" "}
         |
-        <a href="#" id="fahrenheit-link">
+        
+        <button href="#" id="fahrenheit-link">
           °F
-        </a>
+        </button>
       </span>
     </div>
   );
