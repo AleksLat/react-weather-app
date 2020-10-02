@@ -4,7 +4,7 @@ import WeatherApp from "./WeatherApp";
 
 function App() {
   return (
-    <div className="App">
+    <div class="container">
        <WeatherApp />
     </div>
   );

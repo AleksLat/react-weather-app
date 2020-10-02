@@ -1,13 +1,89 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin-top: 30px;
+  background-color: #353a40;
+  color: #dfe1e0;
+}
+h1 {
+  font-size: 200%;
+}
+hr {
+  border-color: #dfe1e0;
+}
+ul {
+  list-style-type: none;
+  padding: 0 0 0 10px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+.container {
+  background-color: #1b3f3b;
+  border: 2px solid #dfe1e0;
+  border-radius: 5px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 15px;
+  margin: 0 auto;
+  width: 400px;
+}
+.footer {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+.flower {
+  height: 150px;
+  width: 150px;
+}
+.firstOffset {
+  margin-left: 4.5%;
+}
+.futureDays {
+  margin: 0 auto;
+}
+.currTemperature {
+  font-size: 50px;
+  position: relative;
+}
+.day {
+  border: 1px solid #dfe1e0;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+}
+.hourForecast {
+  font-size: 16px;
+}
+.weatherParam {
+  text-align: right;
+}
+.weatherData {
+  text-align: left;
+}
+.largeImage {
+  position: relative;
+  left: 2px;
+  top: 10px;
+  height: 150px;
+  width: 150px;
+}
+.units {
+  position: relative;
+}
+.weatherTemperature .active {
+  color: #dfe1e0;
+  cursor: default;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.weatherTemperature .active:hover {
+  text-decoration: none;
+}
+img.smallImage {
+  width: 50px;
+  height: 50px;
 }
